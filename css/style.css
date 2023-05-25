@@ -1,0 +1,56 @@
+body {
+                font-size:1.5em;
+            }
+            div {
+                border: 3px solid blue;
+                margin: 5px;
+                padding: 5px;
+            }
+
+            span {
+
+                padding: 5px;
+            }
+
+            .flex {
+                display: flex;
+            }
+
+            .flex div.menu {
+                width: 250px;
+                flex: none;
+            }
+            img.logo {
+                max-width: 75px;
+            }
+            img.content-placeholder{max-width: 190px;}
+            div.menu a {
+                text-decoration: none;
+            }
+
+            table {
+                width: 500px;
+                border-collapse: collapse;
+            }
+            th {
+                text-align: left;
+            }
+
+            td {
+                padding: 8px;
+                margin: 0;
+            }
+
+            tr.odd {
+                background-color: #e1d5f2;
+            }
+
+
+
+            /*
+            peach: #f2d5d8
+            purpleDark: #9a5bd9
+            purpleMedium: #ae84d9;
+            purpleLight: #b591d9
+            purpleLightest: #e1d5f2
+            */
